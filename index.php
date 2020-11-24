@@ -51,6 +51,7 @@ $path = trim($path, '/');
     <div v-for="(i, nam) in name">
       <a :href="links[nam]">{{i}}</a>
     </div>
+    <img :src="img" alt="">
   </div>
 </body>
 </html>
